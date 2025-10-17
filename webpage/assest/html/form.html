@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1 class="heading1">MySchool Admission Form</h1>
+    <!-- form section -->
+    <div class="form-container">
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" placeholder="Enter your date of birth"><br><br>
+
+        <label for="grade">Grade Applying For:</label>
+        <select id="grade" name="grade" placeholder="Select Grade">
+            <option value="">Select Grade</option>
+            <option value="kindergarten">Kindergarten</option>
+            <option value="1">1st Grade</option>
+            <option value="2">2nd Grade</option>
+            <option value="3">3rd Grade</option>
+            <option value="4">4th Grade</option>
+            <option value="5">5th Grade</option>
+            <option value="6">6th Grade</option>
+            <option value="7">7th Grade</option>
+            <option value="8">8th Grade</option>
+            <option value="9">9th Grade</option>
+            <option value="10">10th Grade</option>
+            <option value="11">11th Grade</option>
+            <option value="12">12th Grade</option>
+        </select><br><br>
+
+        <label for="parentName">Parent/Guardian Name:</label>
+        <input type="text" id="parentName" name="parentName" placeholder="Enter Parent/Guardian Name"><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter Contact Number"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Address"><br><br>
+
+        <label for="address">Home Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter Home Address"></textarea><br><br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </form>
+</div>
+</body>
+</html>
